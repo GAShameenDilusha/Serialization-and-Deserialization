@@ -1,22 +1,4 @@
 # Serialization and Deserialization
-## Introduction to Serialization and Deserialization
-In Java programming, serialization and deserialization are essential ideas that are vital to data management and transfer. The process of serialization involves taking an object's state and turning it into a stream of bytes. This makes it possible to convert complicated data structures into a linear series of bytes. It is simple to store or send this serialized form via networks. On the other hand, deserialization is the opposite procedure in which the original object is rebuilt using this byte stream, essentially restoring the data to its initial state. These methods are necessary for many Java applications, such as data persistence, which requires objects to be kept in files or databases; network communication, which allows objects to be sent between devices or systems; and caching mechanisms, which enhance application performance by storing
 
-
-
-
-## Benefits
-1.Data Persistence: Objects can be saved to files or databases, preserving their state.
-
-2.Network Communication: Objects can be transmitted over networks efficiently.
-
-3.Caching: Serialized objects can be stored in memory or on disk for quick retrieval.
-
-4.Deep Copying: Serialization provides an easy way to create deep copies of objects.
-
-
-## Mechanism
-An object's data and structure are transformed into a stream of bytes in order for serialization to take place. After that, this stream can be sent or stored. Through deserialization, the object's original state is restored by reconstructing it from this byte stream.
-
-To be serialized in Java, classes need to implement the Serializable interface. The conversion procedure is managed by the Java Object Serialization API, which also takes care of class version management and object references.
+## https://docs.google.com/document/d/1IJra-fcRoOT06zSlRbQ8VfHoI_m2NkRE1vA9pSybMTg/edit?usp=sharing
 
